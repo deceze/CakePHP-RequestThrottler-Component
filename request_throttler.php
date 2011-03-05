@@ -2,7 +2,7 @@
 
 Cache::config('throttle', array('engine' => 'File', 'duration' => '+2 hours', 'path' => CACHE . 'throttle' . DS, 'prefix' => false));
 
-class ThrottleComponent extends Object {
+class RequestThrottlerComponent extends Object {
 	
 	public $components = array('Auth', 'RequestHandler', 'Session', 'Recaptcha.Recaptcha');
 	
