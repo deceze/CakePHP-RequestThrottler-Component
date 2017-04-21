@@ -1,1 +1,1 @@
- <?php echo '<p>Hallo Welt</p>'; ?>
+ <?php echo '<p>More or less Hello World</p>'; ?>
